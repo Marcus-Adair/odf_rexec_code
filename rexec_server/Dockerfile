@@ -3,7 +3,7 @@ FROM python:3.9.1
 WORKDIR /server
 
 COPY rexec_server/rexec_server.py /server
-COPY rexec /server/rexec
+# COPY rexec /server/rexec
 
 RUN pip install dill pyzmq dxspaces
 
